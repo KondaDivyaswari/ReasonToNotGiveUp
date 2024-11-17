@@ -1,0 +1,162 @@
+@font-face {
+
+    
+    font-family: 'GuitarRocker';
+    src: url(fonts/guitarrocker.otf);
+    
+    
+}
+@font-face {
+    font-family: 'Carolina';
+    src: url(fonts/Carolina-BF67354f86dccb0.otf);
+
+    
+    
+    
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:59%;
+    
+    margin: 20px;
+    background-image: url("https://img.freepik.com/free-photo/top-view-smiley-sad-faces-blue-monday-with-copy-space_23-2148756223.jpg?t=st=1731767019~exp=1731770619~hmac=ea1aded40e05da58db3362aa83993b22cbb4c8ae492cbc44aedc2392384b86cb&w=1060"); 
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    background-position: center;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+    margin-top: 0px;
+    margin-left: 290px;
+    background:transparent;
+    width: 80%;
+    max-width: 1000px;
+
+    
+}
+h1{
+    font-size: 50px;
+    color: #3A6D8C;
+    /*font-family: "Edu AU VIC WA NT Pre", cursive;*/
+    font-family: "Niconne", serif;
+    
+
+    font-weight: 200;
+    font-style: normal;
+    
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+
+h2{
+    font-size: 40px;
+    color: #825B32;
+   /* font-family: "Niconne", serif;*/
+    font-weight: 200;
+    font-style: normal;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-family: 'GuitarRocker';
+    src: url(fonts/guitarrocker.otf);
+    
+       
+}
+
+h3{
+    font-size: 50px;
+    color: #3A6D8C;
+    font-family: "Niconne", serif;
+    /*font-family:"Edu AU VIC WA NT Pre", cursive ;*/
+    font-weight: 200;
+    font-style: normal;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    
+    
+}
+
+h4{
+    font-size: 40px;
+    color: #825B32;
+    font-family: "Niconne", serif;
+    font-weight: 200;
+    font-style: normal;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-family: 'GuitarRocker';
+    src: url(fonts/guitarrocker.otf);
+    
+
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    margin-top: 40px;
+    padding: 30px 70px;
+    font-size: 18px;
+    border: none;
+    border-radius: 150%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#yesButton {
+    background-color: #508D4E;
+    color: white;
+    margin-right: 10%;
+    
+}
+
+#yesButton:hover {
+    background-color: #0e5e12;
+}
+
+#noButton {
+    background-color: #F05A7E;
+    color: white;
+}
+
+#noButton:hover {
+    background-color: #ea2e21;
+}
+
+p {
+    font-size: 40px;
+    margin-top:4%;
+    line-height: 1.0;
+    color: #32012F;
+    font-weight: 400;
+    font-family: 'Carolina';
+    margin-left: 150px;
+    src: url(fonts/Carolina-BF67354f86dccb0.otf);
+    font-style: bold;
+
+}
+
+
+.stat-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+} 
+#emoji { 
+    font-size: 20px;
+    margin: 10px 1px;
+    color: #af4040;
+}
